@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  height: calc(20vh - 3.5rem);
+  min-height: 4rem;
+}
+
+/* html {
+	font-size: 10px; 
+} */
+
+@media screen and (max-width: 979px) {
+  html {
+    font-size: 12px;
+  }
+}
